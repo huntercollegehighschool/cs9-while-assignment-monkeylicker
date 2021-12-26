@@ -12,3 +12,14 @@ Enter a number or enter 0 to stop: 0
 Product: 60
 
 '''
+total = 1
+num = int(input("Enter a number or enter 0 to stop: "))
+total = total * num
+
+while num != 0:
+  num = int(input("Enter a number or enter 0 to stop: "))
+  if num !=0:
+    total = total * num
+  
+if num == 0:
+  print("Product: ", total)
